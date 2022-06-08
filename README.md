@@ -5,6 +5,12 @@
 Left click for zooming in. Right click for zooming out.
 
 <p align="center">
-  <img src="https://github.com/hypertensiune/Android-Sudoku-Solver/blob/master/screenshots/2.png" width="300" height="639"/>
-  <img src="https://github.com/hypertensiune/Android-Sudoku-Solver/blob/master/screenshots/1.jpg" width="300" height="639"/>
+  <img src="https://github.com/hypertensiune/Mandelbrot/blob/main/screenshots/mandelbrot1.png" width="500" height="500"/>
+  <img src="https://github.com/hypertensiune/Mandelbrot/blob/main/screenshots/mandelbrot8.png" width="500" height="500"/>
+  <br>
+  <img src="https://github.com/hypertensiune/Mandelbrot/blob/main/screenshots/mandelbrot3.png" width="500" height="500"/>
+  <img src="https://github.com/hypertensiune/Mandelbrot/blob/main/screenshots/mandelbrot5.png" width="500" height="500"/>
+  <br>
+  <img src="https://github.com/hypertensiune/Mandelbrot/blob/main/screenshots/mandelbrot6.png" width="500" height="500"/>
+  <img src="https://github.com/hypertensiune/Mandelbrot/blob/main/screenshots/mandelbrot9.png" width="500" height="500"/>
 </p>
