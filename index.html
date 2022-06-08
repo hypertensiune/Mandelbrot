@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mandelbrot Set</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            overflow: hidden;
+        }
+
+        #container div,
+        canvas {
+            position: absolute;
+        }
+
+        #data p {
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="container" style="position: relative;">
+        <canvas id="mycanvas" style="position: absolute; display: block;"></canvas>
+        <div id="data" style="background-color: rgba(56, 43, 43, 0.5);">
+            <p id="lookingat">Looking At: </p>
+            <p id="xinterval">X interval: </p>
+            <p id="yinterval">Y interval: </p>
+            <P id="zoom">Zoom: </P>
+            <p id="iterations">Iterations: </p>
+            <select name="colors" id="colors" style="background-color: gray; color: white;">
+                <option value="grayscale1">Grayscale1</option>
+                <option value="grayscale2">Grayscale2</option>
+                <option value="HSV">HSV</option>
+            </select>
+            <button id="resetbtn" style="background-color: gray; font-size: 16px; color: white;">Reset</button>
+            <button id="dlbtn" style="background-color: gray; font-size: 16px; color: white;">Download png</button>
+        </div>
+    </div>
+    <script src="mandelbrot.js"></script>
+</body>
+
+</html>
