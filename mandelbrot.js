@@ -21,7 +21,6 @@ var yrange = [];
 var zoomlvl;
 var maxiterations = 200;
 var lookingAt;
-var isDrawing = false;
 
 document.getElementById('resetbtn').addEventListener('click', () => init(false));
 canvas.addEventListener('contextmenu', (evt) => { evt.preventDefault(); zoomout(evt); });
@@ -201,7 +200,6 @@ function mandelbrot(real, imag) {
 }
 
 function draw(xrange, yrange) {
-    isDrawing = true;
     let pix = 0;
     for (let i = 0; i < height; i++) {
         for (let j = 0; j < width; j++) {
@@ -220,7 +218,6 @@ function draw(xrange, yrange) {
     }
 
     ctx.putImageData(imgData, 0, 0);
-    isDrawing = false;
 }
 
 function updateData(xrange, yrange, zoom, lookingAt) {
